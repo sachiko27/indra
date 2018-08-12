@@ -4,7 +4,7 @@ function pakan($uid, $usertoken, $jumlah, $wait){
     $x = 0; 
     while($x < $jumlah) {
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL,"http://h5server.jollychic.com/active/sheepFeed/feed.do?callback=topicCallback1533793176459&appTypeId=0&lang=12&countryCode=ID&appVersion=7.1.1&currency=IDR&terminalType=1&timestamp=1533792012760&cookieId=c81dbd56-5ecf-49ed-9e0e-ef67ad30c1e4&userId=$uid&userToken=$usertoken&token=FfHKVDLRxPrCabMKNVV4KFJ%2BXve5hz0O3cjI7sjZbP3igP5v9%2F0zlAQQ&_=1533793108210");
+        curl_setopt($ch, CURLOPT_URL,"http://h5server.jollychic.com/active/sheepFeed/feed.do?callback=topicCallback1533793176459&appTypeId=0&lang=12&countryCode=ID&appVersion=7.1.1&currency=IDR&terminalType=1&timestamp=1533792012760&cookieId=c81dbd56-5ecf-49ed-9e0e-ef67ad30c1e4&userId=42609779&userToken=%2FVpyn9%2BG88b0pegyf7aUcgQQ&_=1533793108210");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 		curl_setopt($ch, CURLOPT_REFERER, 'https://h5server.jollychic.com/');
