@@ -8,7 +8,7 @@ function jolly($userid, $usertoken, $jum, $jumlah, $wait){
              echo $jum;
         
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL,"http://h5server.jollychic.com/active/sheepFeed/getFood.do?callback=topicCallback1533793153536&appTypeId=0&lang=12&countryCode=ID&appVersion=7.1.1&currency=IDR&terminalType=1&timestamp=1533792012760&cookieId=c81dbd56-5ecf-49ed-9e0e-ef67ad30c1e4&userId=$userid&userToken=$usertoken&token=FfHKVDLRxPrCabMKNVV4KFJ%2BXve5hz0O3cjI7sjZbP3igP5v9%2F0zlAQQ&type=$jum&edtionCatId=77628&_=1533793108201");
+        curl_setopt($ch, CURLOPT_URL,"http://h5server.jollychic.com/active/sheepFeed/getFood.do?callback=topicCallback1533793153536&appTypeId=0&lang=12&countryCode=ID&appVersion=7.1.1&currency=IDR&terminalType=1&timestamp=1533792012760&cookieId=c81dbd56-5ecf-49ed-9e0e-ef67ad30c1e4&userId=42609779&userToken=%2FVpyn9%2BG88b0pegyf7aUcgQQ&type=$jum&edtionCatId=77628&_=1533793108201");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
